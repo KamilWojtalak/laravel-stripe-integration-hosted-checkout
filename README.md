@@ -1,9 +1,7 @@
-Tworzysz nowe github repo  
-  
-git log --oneline  
+# Stripe
 
-git reset --hard <has commita o jeden przed tym, który chcesz usunąć>  
-  
-sudo rm -rf .git && git init && git config --local user.email "kamilwojtalak99@gmail.com"  && git config --local user.name "Kamil Wojtalak"  && git config --global core.autocrlf input  && git config core.fileMode false  && git add .  && git commit -m 'init'  
+```
+composer require stripe/stripe-php
+```
 
-git remote add origin https://github.com/KamilWojtalak/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.git  && git push -u origin master  
+po przejściu na live stripe, trzeba zmienić secret keys na te z live'a  
